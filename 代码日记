@@ -1,2 +1,8 @@
 python3.7与pysipder不兼容，因为python3.7等aysnc、await加入了关键词。所以我目前放弃pyspider，转而使用scrapy
-就是这样
+
+创建Scrapy项目：
+在下载Scrapy的环境中执行命令行语句：scrapy stratproject example（项目名称）
+此时命令行会显示文件夹的位置
+然后创建spider：
+cd example
+scrapy genspider example1 example1.com
