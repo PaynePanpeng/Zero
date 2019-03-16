@@ -1,0 +1,1 @@
+python3.7与pysipder不兼容，因为python3.7等aysnc、await加入了关键词。所以我目前放弃pyspider，转而使用scrapy
