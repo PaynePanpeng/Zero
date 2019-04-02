@@ -6,3 +6,5 @@ python3.7与pysipder不兼容，因为python3.7等aysnc、await加入了关键�
 然后创建spider：
 cd example
 scrapy genspider example1 example1.com
+
+运行splash：docker run -p 8050:8050 scrapinghub/splash
