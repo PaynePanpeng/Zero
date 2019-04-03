@@ -8,3 +8,5 @@ cd example
 scrapy genspider example1 example1.com
 
 运行splash：docker run -p 8050:8050 scrapinghub/splash
+
+宝宝是大sb
